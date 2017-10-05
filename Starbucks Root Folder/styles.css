@@ -1,0 +1,366 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-color:white;
+}
+#wrapper{
+	width:90%;
+	margin: 0 auto;
+}
+#adbox{
+	width:300px;
+	height:250px;
+	overflow: hidden;
+	border: 1px solid #000;
+	margin:150px auto;
+	position: relative;
+	background-image: url("images/background.png");
+}
+#CP{
+	width:266px;
+	height:255px;
+	background-image: url("images/CP.png");
+	background-repeat: no-repeat;
+	background-size: 55%;
+	position: absolute;
+	bottom: -134px;
+	z-index: 1;
+	animation-name:cinnamonpowder;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes cinnamonpowder{
+	0%{
+		left:-350px;
+		opacity:0;
+	}
+	100%{
+		left:200px;
+		opacity:1;
+		}
+}
+
+#CS{
+	width:292px;
+	height:208px;
+	background-image: url("images/CS.png");
+	background-repeat: no-repeat;
+	background-size: 55%;
+	position: absolute;
+	bottom: -70px;
+	z-index: 4;
+	opacity: 0;
+	animation-name:cinnamonstick;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes cinnamonstick{
+	0%{
+		left:-350px;
+		opacity:0;
+	}
+	40%{
+		opacity: 1;
+	}
+	100%{
+		left:180px;
+		opacity:1;
+		}
+}
+#LEAF1{
+	width:200px;
+	height:190px;
+	background-image: url("images/leafone.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	position: absolute;
+	bottom: -40px;
+	z-index: 3;
+	opacity: 0;
+	animation-name:leaf1;
+    animation-duration: 2s;
+    animation-delay:2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes leaf1{
+	0%{
+		left:-350px;
+		opacity:0;
+	}
+	40%{
+		opacity: 1;
+	}
+	100%{
+		left:210px;
+		opacity:1;
+		}
+}
+#LEAF2{
+	width:250px;
+	height:200px;
+	background-image: url("images/leaftwo.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	position: absolute;
+	bottom: -30px;
+	z-index: 3;
+	opacity: 0;
+	animation-name:leaf2;
+    animation-duration: 2s;
+    animation-delay:4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes leaf2{
+	0%{
+		left:-250px;
+		opacity:0;
+			transform: rotate(40deg);
+	}
+	100%{
+		left:110px;
+		opacity:1;
+		transform: rotate(-10deg);
+		}
+}
+#LEAF3{
+	width:250px;
+	height:200px;
+	background-image: url("images/leafthree.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	position: absolute;
+	bottom: -60px;
+	z-index: 2;
+	opacity: 0;
+	animation-name:leaf3;
+    animation-duration: 2s;
+    animation-delay:4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes leaf3{
+	0%{
+		left:-250px;
+		opacity:0;
+
+	}
+	100%{
+		left:80px;
+		opacity:1;
+		}
+}
+
+#WHEAT{
+	width:250px;
+	height:200px;
+	background-image: url("images/WHEAT.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	position: absolute;
+	bottom: -50px;
+	z-index: 3;
+	opacity: 0;
+	animation-name: wheat;
+    animation-duration: 2s;
+    animation-delay:4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes wheat{
+	0%{
+		left:-250px;
+		opacity:0;
+			transform: rotate(40deg);
+	}
+	100%{
+		left:110px;
+		opacity:1;
+		transform: rotate(-20deg);
+		}
+}
+#PUMPKIN{
+	width:170px;
+	height:140px;
+	background-image: url("images/PUMPKIN.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	position: absolute;
+	bottom: -15px;
+	z-index: 3;
+	opacity: 0;
+	animation-name: pumpkin;
+    animation-duration: 2s;
+    animation-delay:4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes pumpkin{
+	0%{
+		left:-250px;
+		opacity:0;
+			transform: rotate(40deg);
+	}
+	100%{
+		left:110px;
+		opacity:1;
+		transform: rotate(-20deg);
+		}
+}
+
+#PSL{
+	width:500px;
+	height:300px;
+	background-image: url("images/PSL.png");
+	background-repeat: no-repeat;
+	background-size: 65%;
+	position: absolute;
+	bottom: -100px;
+	z-index: 5;
+	opacity: 0;
+	animation-name:psl;
+    animation-duration: 1s;
+    animation-delay:1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes psl{
+	0%{
+		left:-350px;
+		opacity:0;
+	}
+
+	100%{
+		left:60px;
+		opacity:2;
+		}
+}
+#LOGO{
+	width:60px;
+	height:60px;
+	background-image: url("images/LOGO.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: -200px;
+	left: 20px;
+	z-index: 8;
+	opacity: 0;
+	animation-name:logo;
+    animation-duration: 2s;
+    animation-delay:5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes logo{
+	0%{
+		bottom: :-300px;
+		opacity:0;
+	}
+	40%{
+		opacity: 1;
+	}
+	100%{
+		bottom:10px;
+		opacity:1;
+		}
+}
+#AND{
+	width:180px;
+	height:180px;
+	background-image: url("images/AND.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+	position: absolute;
+	bottom: 300px;
+	left: -35px;
+	z-index: 8;
+	opacity: 0;
+	animation-name:and;
+    animation-duration: 2s;
+    animation-delay:5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes and{
+	0%{
+		bottom: :-300px;
+		opacity:0;
+	}
+	40%{
+		opacity: 1;
+	}
+	100%{
+		bottom:80px;
+		opacity:1;
+		}
+}
+h1{
+	font-size: 1.8em;
+	font-family: sans-serif;
+	color:#e69c55;
+	z-index: 4;
+	opacity: 0;
+	position: absolute;
+	top:20px;
+	animation-name:h_one;
+    animation-duration: 2s;
+    animation-delay:5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes h_one{
+	0%{
+		left:-200px;
+	}
+	100%{
+		left:25px;
+		opacity: 1;
+	}
+}
+
+h2{
+	font-size: 1em;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color:#a9a7a6;
+	z-index: 4;
+	opacity: 0;
+	position: absolute;
+	top:100px;
+	animation-name:h_two;
+    animation-duration: 2s;
+    animation-delay:5.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+h3{
+	font-size: 2.0em;
+	font-family: sans-serif;
+	font-weight: lighter;
+	color:#e69c55;
+	z-index: 4;
+	opacity: 0;
+	position: absolute;
+	top:115px;
+	animation-name:h_one;
+		animation-duration: 2s;
+		animation-delay:5s;
+		animation-iteration-count: 1;
+		animation-fill-mode: forwards;
+}
+@keyframes h_two{
+	0%{
+		left:-200px;
+	}
+	100%{
+		left:25px;
+		opacity: 1;
+	}
+}
